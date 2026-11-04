@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-04",
+  "apps": {
+    "aaa": {
+      "title": "AAA サイト",
+      "editUrl": "https://github.com/knotspace/aaa/edit/main/release-notes.json",
+      "notes": [
+        {
+          "date": "2026-11-04",
+          "version": "v1.0.0",
+          "type": "feature",
+          "audience": "all",
+          "title": "画面内リリースノートを追加",
+          "description": "サイト内から更新情報を開けるようになりました。"
+        },
+        {
+          "date": "2026-11-04",
+          "version": "v1.0.0-dev",
+          "type": "developer",
+          "audience": "developer",
+          "title": "更新履歴データを分離",
+          "description": "サイト本体のHTMLを大きく編集せず、release-notes.json に変更点を追記して管理できます。",
+          "path": "release-notes.json"
+        }
+      ]
+    }
+  }
+}
