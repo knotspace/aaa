@@ -1,11 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-05",
   "apps": {
     "aaa": {
       "title": "AAA サイト",
       "editUrl": "https://github.com/knotspace/aaa/edit/main/release-notes.json",
       "notes": [
+        {
+          "date": "2026-11-05",
+          "version": "v1.0.1",
+          "type": "feature",
+          "audience": "all",
+          "title": "フッターにリリースノート項目を追加",
+          "description": "ページ最下部から更新履歴を開けるようにしました。"
+        },
         {
           "date": "2026-11-04",
           "version": "v1.0.0",
